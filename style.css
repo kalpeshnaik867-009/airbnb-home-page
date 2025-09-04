@@ -377,14 +377,16 @@ body{
   
 
   
-  @media only screen and (max-width: 422px) {
-    .top-slection-images-rooms-pic{
+  @media only screen and (max-width: 390px) {
+    /* .top-slection-images-rooms-pic{
         width: 300px;
         height: 300px;
-    }
-    .top-slection-images,.top-slection-images-rooms-second-row{
+    } */
+    .top-slection-images{
         display: flex;
         flex-wrap: wrap;
+        width: 100px;
+        height: 300px;
     }
   }
    
@@ -493,14 +495,15 @@ box-shadow: 0px 0px 400px 200px rgba(0,0,0,0.61);
 justify-content: start;
 }
 /* Small phones */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 390px) {
   body {
-    font-size: 14px;
+        width: 300px;
+        height: 300px;
   }
 }
 
 /* Medium phones */
-@media only screen and (min-width: 376px) and (max-width: 425px) {
+@media only screen and (min-width: 376px) and (max-width: 430px) {
   body {
     font-size: 15px;
   }
