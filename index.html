@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+           
+    </head>
+    <body>
+        <div class="top-slection">
+            <div class="top-slection-nav">
+                <div class="top-slection-nav-logo">
+                    <img src="./assets/www.airbnb.co.in-1754196678595/logo.svg" alt="" class="logo"></div>
+                <div class="top-slection-nav-mid">
+                    <button class="top-slection-nav-mid-button btn-active" id="underline1" onclick="changeStyle(`underline1`)">
+                        <img src="./assets/www.airbnb.co.in-1754196678595/home.png" alt="" class="top-slection-nav-mid-img" >
+                        home</button>
+                     <button class="top-slection-nav-mid-button" onclick="changeStyle(`underline2`)" id="underline2">
+                        <img src="./assets/www.airbnb.co.in-1754196678595/experience.png" alt=""  class="top-slection-nav-mid-img">
+                        exprince
+                    </button>
+                      <button class="top-slection-nav-mid-button" onclick="changeStyle(`underline3`)" id="underline3">
+                        <img src="./assets/www.airbnb.co.in-1754196678595/service.png" alt=""  class="top-slection-nav-mid-img">
+                        service
+                    </button>
+                </div>
+                <div class="top-slection-nav-last">
+                    <button class="top-slection-nav-last-button-text" onclick="becomeHost()"> become a host</button>
+                     <button class="top-slection-nav-last-button">
+                        <img src="./assets/www.airbnb.co.in-1754196678595/globe.svg" alt="" class="top-slection-nav-last-img"></button>
+                      <button class="top-slection-nav-last-button" onclick="healthCenter()">
+                        <img src="./assets/www.airbnb.co.in-1754196678595/hamburger.svg" alt="" class="top-slection-nav-last-img">
+                        
+                        </button>
+                        
+                </div>
+            </div>
+            <div class="top-slection-explor">
+                <div class="top-slection-explor-btn-search">
+                    <p id="text" >where</p>
+                    <input type="text" placeholder="search destination" class="top-slection-explor-searchBar">
+                </div>
+                <div class="border"></div>
+                <div class="top-slection-explor-btn">
+                    <p class="top-slection-explor-text">Check in</p>
+                    <button class="top-slection-explor-check">check in</button>
+                </div>
+                 <div class="border"></div>
+                <div class="top-slection-explor-btn">
+                    <p class="top-slection-explor-text">check out</p>
+                    <button class="top-slection-explor-check-out">check out</button>
+                </div>
+                 <div class="border"></div>
+                <div class="top-slection-explor-btn">
+                    <p class="top-slection-explor-text">Who</p>
+                    <button class="top-slection-explor-guest">guest</button>
+                </div class="top-slection-explor-btn">
+                 
+                <div>
+            
+                    <button class="top-slection-explor-search">
+                        <img src="./assets/www.airbnb.co.in-1754196678595/search.svg" alt="" class="top-slection-explor-img">
+                    </button>
+                </div>
+                
+                
+                     
+                      
+                      
+            </div>
+        </div>
+        <div class="top-slection-center">
+            <div class="top-slection-center-text">
+                <button class="top-slection-center-btn">
+                    popular homes in pune  >
+                </button>
+                
+                   </div>
+                   <div class="top-slection-center-arrow">
+                    <img src="./assets/www.airbnb.co.in-1754196678595/left-arrow.svg" alt="" class="arrow-img">
+                    <img src="./assets/www.airbnb.co.in-1754196678595/right-arrow.svg" alt="" class="arrow-img">
+                   </div>
+            
+        </div>
+        <div class="top-slection-images">
+            <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room1.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <img src="./assets/www.airbnb.co.in-1754196678595/like.svg" alt="" class="like-btn">
+                <h3>Flat in Pune</h3>
+                <p>$5,667 for 2 nights *4.84</p>
+            
+            </div>
+             <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room2.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <img src="./assets/www.airbnb.co.in-1754196678595/like.svg" alt="" class="like-btn">
+                <h3>Flat in Pune</h3>
+                
+                <p>$5,667 for 2 nights *4.84</p>
+            </div>
+             <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room3.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <img src="./assets/www.airbnb.co.in-1754196678595/like.svg" alt="" class="like-btn">
+                <h3>Flat in Pune</h3>
+                <p>$5,667 for 2 nights *4.84</p>
+            </div>
+             <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room4.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <h3>Flat in Pune</h3>
+                <p>$5,667 for 2 nights *4.84</p>
+            </div>
+             <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room5.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <img src="./assets/www.airbnb.co.in-1754196678595/like.svg" alt="" class="like-btn">
+                <h3>Flat in Pune</h3>
+                <p>$5,667 for 2 nights *4.84</p>
+            </div>
+             <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room6.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <img src="./assets/www.airbnb.co.in-1754196678595/like.svg" alt="" class="like-btn">
+                <h3>Flat in Pune</h3>
+                <p>$5,667 for 2 nights *4.84</p>
+            </div>
+        </div>
+            <div class="top-slection-images-rooms-row-text">
+                <p>popular homes in Goa  ></p>
+            </div>
+            <div class="top-slection-images-rooms-second-row">
+            <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room6.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <img src="./assets/www.airbnb.co.in-1754196678595/like.svg" alt="" class="like-btn">
+                <h3>Flat in Pune</h3>
+                <p>$5,667 for 2 nights *4.84</p>
+            </div>
+            <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room6.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <img src="./assets/www.airbnb.co.in-1754196678595/like.svg" alt="" class="like-btn">
+                
+                <h3>Flat in Pune</h3>
+                <p>$5,667 for 2 nights *4.84</p>
+            </div>
+            <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room6.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <img src="./assets/www.airbnb.co.in-1754196678595/like.svg" alt="" class="like-btn">
+                <h3>Flat in Pune</h3>
+                <p>$5,667 for 2 nights *4.84</p>
+            </div>
+            <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room6.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <img src="./assets/www.airbnb.co.in-1754196678595/like.svg" alt="" class="like-btn">
+                <h3>Flat in Pune</h3>
+                <p>$5,667 for 2 nights *4.84</p>
+            </div>
+            <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room6.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <img src="./assets/www.airbnb.co.in-1754196678595/like.svg" alt="" class="like-btn">
+                <h3>Flat in Pune</h3>
+                <p>$5,667 for 2 nights *4.84</p>
+            </div>
+            <div class="top-slection-images-rooms">
+                <img src="./assets/www.airbnb.co.in-1754196678595/room6.jpeg" alt="" class="top-slection-images-rooms-pic">
+                <button class="guest">Guest favourite</button>
+                <img src="./assets/www.airbnb.co.in-1754196678595/like.svg" alt="" class="like-btn">
+                <h3>Flat in Pune</h3>
+                <p>$5,667 for 2 nights *4.84</p>
+            </div>
+            </div>            
+              <div class="healthcenter box">
+                            <button class="healthCenter-btn">Health Center</button>
+                            <div class="healthCenter-btn-border"></div>
+                            <button class="healthCenter-btn" onclick="becomeHost()"><p>Become a host</p>
+                                It's easy to start hosting and earn extra income.
+                            </button >
+                            <div class="healthCenter-btn-border"></div>
+                            <button class="healthCenter-btn">Find a co-host</button>
+                            <div class="healthCenter-btn-border"></div>
+                            <button class="healthCenter-btn">Log in or sign up</button>
+                            <div class="healthCenter-btn-border"></div>
+                        </div>
+                        <div class="Become-host box2">
+                            <div class="Become-host-top-bar">
+                                <div class="Become-host-top-cancle">
+                            <button id="Become-host-cancle">X</button>
+                                </div>
+                            <div class="Become-host-top-text">
+                            <h1> What you want to host</h1>
+                            </div>
+                             </div>
+                            <div class="becomeHost-imgs">
+                            <div class="Become-host-img" >
+                                <img src="./assets/www.airbnb.co.in-1754196678595/home.png" alt="" class="host-img" id="Become-host-img1">
+                            </div>
+                            <div>
+                                <img src="./assets/www.airbnb.co.in-1754196678595/experience.png" alt="" class="host-img"  id="Become-host-img2">
+                            </div>
+                            <div>
+                                <img src="./assets/www.airbnb.co.in-1754196678595/service.png" alt="" class="host-img"  id="Become-host-img3">
+                            </div>
+                            </div>
+                        </div>
+              
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
