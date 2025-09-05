@@ -21,6 +21,7 @@ body{
     
 
 }
+
 .top-slection-nav{
     
     width: 90%;
@@ -202,8 +203,9 @@ body{
 }
 .top-slection-center{
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 20px; */
 }
 .arrow-img{
     width: 12px;
@@ -225,8 +227,8 @@ body{
     margin-right: 100px;
 }
 .top-slection-images-rooms-pic{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 30px;
     
 }
@@ -246,7 +248,7 @@ body{
 }
 .top-slection-images{
     display: flex;
-   justify-content: center;
+   /* justify-content: center; */
     gap: 10px;
    
 }
@@ -378,11 +380,11 @@ body{
 
   
   @media only screen and (max-width: 390px) {
-    /* .top-slection-images-rooms-pic{
+    .top-slection-images-rooms-pic{
         width: 300px;
         height: 300px;
-    } */
-    .top-slection-images{
+    }
+    .top-slection-images,.top-slection-images-rooms-second-row{
         display: flex;
         flex-wrap: wrap;
         width: 100px;
@@ -495,12 +497,13 @@ box-shadow: 0px 0px 400px 200px rgba(0,0,0,0.61);
 justify-content: start;
 }
 /* Small phones */
-@media only screen and (max-width: 390px) {
+/* @media only screen and (max-width: 400px) {
   body {
-        width: 300px;
+        width: 100px;
         height: 300px;
   }
-}
+ 
+} */
 
 /* Medium phones */
 @media only screen and (min-width: 376px) and (max-width: 430px) {
@@ -514,4 +517,9 @@ justify-content: start;
   body {
     font-size: 16px;
   }
+}
+.top-slection-center-button{
+  display: flex;
+  justify-content: space-between;
+  
 }
